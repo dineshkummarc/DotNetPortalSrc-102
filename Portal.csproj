@@ -1,0 +1,861 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Web"
+        ProductVersion = "7.0.9466"
+        SchemaVersion = "1.0"
+        ProjectGuid = "{2DEF481D-4E2A-4C7F-86FB-4DFC7D09D7DC}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "Portal"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                RootNamespace = "Portal"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Web.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.XML.dll"
+                />
+                <Reference
+                    Name = "TreeWebControl"
+                    Project = "{F58F1437-132B-4E84-8285-C08DFE0CA3DB}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "Portal.API"
+                    Project = "{FF486279-1221-4544-8202-9926F804F273}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "default.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "default.aspx.cs"
+                    DependentUpon = "default.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "default.aspx.resx"
+                    DependentUpon = "default.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EditLink.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EditModuleFrame.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "EditModuleFrame.aspx.cs"
+                    DependentUpon = "EditModuleFrame.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EditModuleFrame.aspx.resx"
+                    DependentUpon = "EditModuleFrame.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EditModuleTable.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "EditModuleTable.aspx.cs"
+                    DependentUpon = "EditModuleTable.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EditModuleTable.aspx.resx"
+                    DependentUpon = "EditModuleTable.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EditPageFrame.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "EditPageFrame.aspx.cs"
+                    DependentUpon = "EditPageFrame.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EditPageFrame.aspx.resx"
+                    DependentUpon = "EditPageFrame.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EditPageTable.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "EditPageTable.aspx.cs"
+                    DependentUpon = "EditPageTable.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EditPageTable.aspx.resx"
+                    DependentUpon = "EditPageTable.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EditTabFrame.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "EditTabFrame.aspx.cs"
+                    DependentUpon = "EditTabFrame.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EditTabFrame.aspx.resx"
+                    DependentUpon = "EditTabFrame.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EditTabTable.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "EditTabTable.aspx.cs"
+                    DependentUpon = "EditTabTable.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EditTabTable.aspx.resx"
+                    DependentUpon = "EditTabTable.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "FooterFrame.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "FooterFrame.aspx.cs"
+                    DependentUpon = "FooterFrame.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "FooterFrame.aspx.resx"
+                    DependentUpon = "FooterFrame.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "FrameSet.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.cs"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HeaderFrame.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HeaderFrame.aspx.cs"
+                    DependentUpon = "HeaderFrame.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HeaderFrame.aspx.resx"
+                    DependentUpon = "HeaderFrame.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Helper.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ModuleFailed.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ModuleFailed.ascx.cs"
+                    DependentUpon = "ModuleFailed.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ModuleFailed.ascx.resx"
+                    DependentUpon = "ModuleFailed.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ModuleHeader.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ModuleHeader.ascx.cs"
+                    DependentUpon = "ModuleHeader.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ModuleHeader.ascx.resx"
+                    DependentUpon = "ModuleHeader.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "OverlayMenu.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "OverlayMenu.ascx.cs"
+                    DependentUpon = "OverlayMenu.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "OverlayMenu.ascx.resx"
+                    DependentUpon = "OverlayMenu.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Portal.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Portal.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "PortalDefinition.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PortalFooter.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "PortalHeader.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "PortalTab.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "PortalTab.ascx.cs"
+                    DependentUpon = "PortalTab.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PortalTab.ascx.resx"
+                    DependentUpon = "PortalTab.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "README.TXT"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "RenderFrame.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "RenderFrame.aspx.cs"
+                    DependentUpon = "RenderFrame.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "RenderFrame.aspx.resx"
+                    DependentUpon = "RenderFrame.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "RenderTable.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "RenderTable.aspx.cs"
+                    DependentUpon = "RenderTable.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "RenderTable.aspx.resx"
+                    DependentUpon = "RenderTable.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "TabHttpHandler.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "TabMenu.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "TabMenu.ascx.cs"
+                    DependentUpon = "TabMenu.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "TabMenu.ascx.resx"
+                    DependentUpon = "TabMenu.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "TabPath.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "TabPath.ascx.cs"
+                    DependentUpon = "TabPath.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "TabPath.ascx.resx"
+                    DependentUpon = "TabPath.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UserManagement.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Users.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Users.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "Users.cs"
+                />
+                <File
+                    RelPath = "Users.cs"
+                    DependentUpon = "Users.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Users.xsx"
+                    DependentUpon = "Users.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Web.config.1.1"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\background.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\bars.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\bullet.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\cancel.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\delete.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\down.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\edit.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\left.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Minus.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\new.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\ok.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Plus.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\right.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\save.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\up.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modules\AdminPortal\AdminPortal.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modules\AdminPortal\AdminPortal.ascx.cs"
+                    DependentUpon = "AdminPortal.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Modules\AdminPortal\AdminPortal.ascx.resx"
+                    DependentUpon = "AdminPortal.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Modules\AdminPortal\ModuleEdit.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modules\AdminPortal\ModuleEdit.ascx.cs"
+                    DependentUpon = "ModuleEdit.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Modules\AdminPortal\ModuleEdit.ascx.resx"
+                    DependentUpon = "ModuleEdit.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Modules\AdminPortal\ModuleList.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modules\AdminPortal\ModuleList.ascx.cs"
+                    DependentUpon = "ModuleList.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Modules\AdminPortal\ModuleList.ascx.resx"
+                    DependentUpon = "ModuleList.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Modules\AdminPortal\ModuleSettings.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modules\AdminPortal\Roles.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modules\AdminPortal\Roles.ascx.cs"
+                    DependentUpon = "Roles.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Modules\AdminPortal\Roles.ascx.resx"
+                    DependentUpon = "Roles.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Modules\AdminPortal\Tab.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modules\AdminPortal\Tab.ascx.cs"
+                    DependentUpon = "Tab.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Modules\AdminPortal\Tab.ascx.resx"
+                    DependentUpon = "Tab.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Modules\AdminPortal\TabList.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modules\AdminPortal\TabList.ascx.cs"
+                    DependentUpon = "TabList.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Modules\AdminPortal\TabList.ascx.resx"
+                    DependentUpon = "TabList.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Modules\AdminRoles\AdminRoles.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modules\AdminRoles\AdminRoles.ascx.cs"
+                    DependentUpon = "AdminRoles.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Modules\AdminRoles\AdminRoles.ascx.resx"
+                    DependentUpon = "AdminRoles.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Modules\AdminRoles\ModuleSettings.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modules\AdminUsers\AdminUsers.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modules\AdminUsers\AdminUsers.ascx.cs"
+                    DependentUpon = "AdminUsers.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Modules\AdminUsers\AdminUsers.ascx.resx"
+                    DependentUpon = "AdminUsers.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Modules\AdminUsers\ModuleSettings.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modules\AdminUsers\UserEdit.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modules\AdminUsers\UserEdit.ascx.cs"
+                    DependentUpon = "UserEdit.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Modules\AdminUsers\UserEdit.ascx.resx"
+                    DependentUpon = "UserEdit.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Modules\AdminUsers\UserList.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modules\AdminUsers\UserList.ascx.cs"
+                    DependentUpon = "UserList.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Modules\AdminUsers\UserList.ascx.resx"
+                    DependentUpon = "UserList.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Modules\CSVTable\CSVTable.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modules\CSVTable\EditCSVTable.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modules\Feedback\Feedback.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modules\Feedback\Module.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modules\Feedback\Module.xsd"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modules\Feedback\Module.xsx"
+                    DependentUpon = "Module.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Modules\Feedback\ModuleSettings.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modules\HitCounter\Counter.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modules\HitCounter\counter.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modules\HitCounter\ModuleSettings.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modules\HitCounter\pdy.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modules\HitCounter\reddigits.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modules\Html\EditHtml.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modules\Html\Html.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modules\Html\m1.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modules\Html\m2.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modules\Html\m4.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modules\Login\Login.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modules\News\EditNews.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modules\News\Module.xsd"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modules\News\Module.xsx"
+                    DependentUpon = "Module.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Modules\News\News.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modules\QuickLinks\EditQuickLinks.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modules\QuickLinks\Module.xsd"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modules\QuickLinks\Module.xsx"
+                    DependentUpon = "Module.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Modules\QuickLinks\QuickLinks.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modules\Quotations\EditQuotations.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modules\Quotations\Quotations.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modules\Table\EditTable.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modules\Table\Table.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modules\TabList\ModuleSettings.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modules\TabList\TabList.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modules\TabList\TabList.ascx.cs"
+                    DependentUpon = "TabList.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Modules\TabList\TabList.ascx.resx"
+                    DependentUpon = "TabList.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Modules\WebSite\EditWebSite.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Modules\WebSite\WebSite.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

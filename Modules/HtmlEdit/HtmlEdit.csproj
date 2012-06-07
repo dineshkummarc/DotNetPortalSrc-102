@@ -1,0 +1,420 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.0.9466"
+        SchemaVersion = "1.0"
+        ProjectGuid = "{D5C05285-81EF-4C1B-813F-B6D402279863}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "HtmlEdit"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                RootNamespace = "HtmlEdit"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "..\..\bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "..\..\bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\..\..\WINNT\Microsoft.NET\Framework\v1.0.3705\System.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\..\..\WINNT\Microsoft.NET\Framework\v1.0.3705\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\..\..\WINNT\Microsoft.NET\Framework\v1.0.3705\System.XML.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "..\..\..\..\..\WINNT\Microsoft.NET\Framework\v1.0.3705\System.Web.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\..\..\..\WINNT\Microsoft.NET\Framework\v1.0.3705\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Design"
+                    AssemblyName = "System.Design"
+                    HintPath = "..\..\..\..\..\WINNT\Microsoft.NET\Framework\v1.0.3705\System.Design.dll"
+                />
+                <Reference
+                    Name = "Portal.API"
+                    Project = "{FF486279-1221-4544-8202-9926F804F273}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ColorPicker.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ColorPicker.aspx.cs"
+                    DependentUpon = "ColorPicker.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ColorPicker.aspx.resx"
+                    DependentUpon = "ColorPicker.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EditHtmlEdit.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "EditHtmlEdit.ascx.cs"
+                    DependentUpon = "EditHtmlEdit.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EditHtmlEdit.ascx.resx"
+                    DependentUpon = "EditHtmlEdit.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "FileManager.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "FileManager.aspx.cs"
+                    DependentUpon = "FileManager.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "FileManager.aspx.resx"
+                    DependentUpon = "FileManager.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "FilePicker.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "FilePicker.aspx.cs"
+                    DependentUpon = "FilePicker.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "FilePicker.aspx.resx"
+                    DependentUpon = "FilePicker.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HtmlEdit.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HtmlEdit.ascx.cs"
+                    DependentUpon = "HtmlEdit.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HtmlEdit.ascx.resx"
+                    DependentUpon = "HtmlEdit.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "TableEditor.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Bold.GIF"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\CreateFolder.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Cut.GIF"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\icon.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\1x1.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\bars.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\Bold.GIF"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\browse.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\bullist.GIF"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\Center.GIF"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\Copy.GIF"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\CreateFolder.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\Cut.GIF"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\DeIndent.GIF"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\del.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\delete.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\dn.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\edit.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\ffwd.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\fgcolor.GIF"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\File.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\FilePicker.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\Folder.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\fplogo.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\frew.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\fwd.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\home.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\HR.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\icon.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\image.GIF"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\inindent.GIF"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\Italic.GIF"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\left.GIF"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\Link.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\logo.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\lt.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\minus.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\navlink.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\node.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\numlist.GIF"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\Paste.GIF"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\Redo.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\right.GIF"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\rt.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\Save.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\Subscript.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\Superscript.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\Table.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\under.GIF"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\Undo.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\up.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\upload.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\WYSIWYG\view.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Source\ColorPicker.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Source\FilePickerControl.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Source\ImageManager.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Source\YAHENet.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <Folder RelPath = "uploads\images\" />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

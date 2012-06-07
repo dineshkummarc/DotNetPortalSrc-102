@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<xs:schema id="Users" targetNamespace="http://tempuri.org/Users.xsd" xmlns:mstns="http://tempuri.org/Users.xsd" xmlns="http://tempuri.org/Users.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="Users" msdata:IsDataSet="true" msdata:EnforceConstraints="False">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="User">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="login" type="xs:string" minOccurs="0" />
+							<xs:element name="password" type="xs:string" minOccurs="0" />
+							<xs:element name="firstName" type="xs:string" minOccurs="0" />
+							<xs:element name="surName" type="xs:string" minOccurs="0" />
+							<xs:element name="UserRole" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" form="unqualified" type="xs:string" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Role">
+					<xs:complexType>
+						<xs:attribute name="name" form="unqualified" type="xs:string" />
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:key name="User_login" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:User" />
+			<xs:field xpath="mstns:login" />
+		</xs:key>
+		<xs:key name="Role_login" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Role" />
+			<xs:field xpath="@name" />
+		</xs:key>
+		<xs:keyref name="RoleUserRole" refer="mstns:Role_login" msdata:AcceptRejectRule="Cascade" msdata:DeleteRule="Cascade" msdata:UpdateRule="Cascade">
+			<xs:selector xpath=".//mstns:UserRole" />
+			<xs:field xpath="@name" />
+		</xs:keyref>
+	</xs:element>
+</xs:schema>

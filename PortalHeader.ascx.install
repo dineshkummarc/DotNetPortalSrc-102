@@ -1,0 +1,43 @@
+<%@ Control Language="c#" autoeventwireup="true" TargetSchema="http://schemas.microsoft.com/intellisense/ie5"%>
+<%@ Register TagPrefix="uc1" TagName="TabMenu" Src="TabMenu.ascx" %>
+<script runat="server">
+	void Page_Load(object sender, EventArgs args)
+	{
+		if(Page.User.Identity.IsAuthenticated)
+		{
+			user.InnerHtml = "Welcome " + Page.User.Identity.Name;
+			spanLogout.Visible = true;
+		}
+		else
+		{
+			spanLogout.Visible = false;
+		}
+	}
+	void OnSignOut(object sender, EventArgs args)
+	{
+		FormsAuthentication.SignOut();
+		Response.Redirect(Request.RawUrl);		
+	}
+</script>
+<table width="100%" class="PortalHeader" cellpadding="0" cellspacing="0" width="100%">
+	<tr>
+		<td background="images/border.gif" width="100%" align="right" colspan="2">
+			<span class="PortalHeaderUserInfo" style="padding-right: 10px;">&nbsp; <span id="spanLogout" runat="server">
+					<span id="user" runat="server"></span>|
+					<asp:LinkButton cssclass="PortalHeaderUserInfo" Runat="server" OnClick="OnSignOut" ID="Linkbutton1">Logoff</asp:LinkButton>
+				</span></span>
+		</td>
+	</tr>
+	<tr>
+		<td width="100%">Personal .NET Portal</td>
+		<td><!--<img src="images/logo.png">--></td>
+	</tr>
+	<tr>
+		<td height="10px" colspan="2"></td>
+	</tr>
+	<tr>
+		<td width="100%" colspan="2">
+			<uc1:TabMenu id="TabMenu" runat="server"></uc1:TabMenu>
+		</td>
+	</tr>
+</table>

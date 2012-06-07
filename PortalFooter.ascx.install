@@ -1,0 +1,6 @@
+<%@ Control Language="c#" AutoEventWireup="true" %>
+<table width="100%" class="PortalFooter">
+	<tr>
+		<td>Personal .NET Portal</td>
+	</tr>
+</table>

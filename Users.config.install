@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="yes"?>
+<Users xmlns="http://tempuri.org/Users.xsd">
+  <User>
+    <login>Admin</login>
+    <password>admin</password>
+    <firstName>Portal</firstName>
+    <surName>Admin</surName>
+    <UserRole name="Admin" />
+    <UserRole name="Everyone" />
+    <UserRole name="Editor" />
+  </User>
+  <Role name="Admin" />
+  <Role name="User" />
+  <Role name="Everyone" />
+  <Role name="Anonymous" />
+  <Role name="Editor" />
+</Users>

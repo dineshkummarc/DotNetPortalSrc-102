@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<portal xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <tabs>
+    <tab ref="MainPage">
+      <title>Home</title>
+      <roles>
+        <view>Everyone</view>
+      </roles>
+      <tabs />
+      <left>
+        <module ref="login">
+          <title>Login</title>
+          <type>Login</type>
+          <roles>
+            <view>Everyone</view>
+          </roles>
+        </module>
+      </left>
+    </tab>
+    <tab ref="AdminUsers">
+      <title>Admin Users</title>
+      <roles>
+        <view>Admin</view>
+      </roles>
+      <tabs />
+      <left />
+      <middle>
+        <module ref="Users">
+          <title>Users</title>
+          <type>AdminUsers</type>
+          <roles>
+            <view>Admin</view>
+          </roles>
+        </module>
+        <module ref="Roles">
+          <title>Roles</title>
+          <type>AdminRoles</type>
+          <roles>
+            <view>Admin</view>
+          </roles>
+        </module>
+      </middle>
+      <right />
+    </tab>
+    <tab ref="AdminPortal">
+      <title>Admin Portal</title>
+      <roles>
+        <view>Admin</view>
+      </roles>
+      <tabs />
+      <left />
+      <middle>
+        <module ref="Portal">
+          <title>Portal Settings</title>
+          <type>AdminPortal</type>
+          <roles>
+            <view>Admin</view>
+          </roles>
+        </module>
+      </middle>
+      <right />
+    </tab>
+  </tabs>
+</portal>

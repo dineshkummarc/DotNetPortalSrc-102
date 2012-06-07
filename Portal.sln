@@ -1,0 +1,51 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portal", "http://localhost/Portal/Portal.csproj", "{2DEF481D-4E2A-4C7F-86FB-4DFC7D09D7DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeWebControl", "TreeWebControlPrj\TreeWebControl.csproj", "{F58F1437-132B-4E84-8285-C08DFE0CA3DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageBrowser", "Modules\ImageBrowser\ImageBrowser.csproj", "{4D0896E8-7E2E-42C3-A38B-5754644C9F8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portal.API", "Portal.API\Portal.API.csproj", "{FF486279-1221-4544-8202-9926F804F273}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlEdit", "Modules\HtmlEdit\HtmlEdit.csproj", "{D5C05285-81EF-4C1B-813F-B6D402279863}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiversideInternetForums", "Modules\RiversideInternetForums\RiversideInternetForums.csproj", "{39F1B740-51C6-4B62-901A-646AD4A5ABEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{2DEF481D-4E2A-4C7F-86FB-4DFC7D09D7DC}.Debug.ActiveCfg = Debug|.NET
+		{2DEF481D-4E2A-4C7F-86FB-4DFC7D09D7DC}.Debug.Build.0 = Debug|.NET
+		{2DEF481D-4E2A-4C7F-86FB-4DFC7D09D7DC}.Release.ActiveCfg = Release|.NET
+		{2DEF481D-4E2A-4C7F-86FB-4DFC7D09D7DC}.Release.Build.0 = Release|.NET
+		{F58F1437-132B-4E84-8285-C08DFE0CA3DB}.Debug.ActiveCfg = Debug|.NET
+		{F58F1437-132B-4E84-8285-C08DFE0CA3DB}.Debug.Build.0 = Debug|.NET
+		{F58F1437-132B-4E84-8285-C08DFE0CA3DB}.Release.ActiveCfg = Release|.NET
+		{F58F1437-132B-4E84-8285-C08DFE0CA3DB}.Release.Build.0 = Release|.NET
+		{4D0896E8-7E2E-42C3-A38B-5754644C9F8D}.Debug.ActiveCfg = Debug|.NET
+		{4D0896E8-7E2E-42C3-A38B-5754644C9F8D}.Debug.Build.0 = Debug|.NET
+		{4D0896E8-7E2E-42C3-A38B-5754644C9F8D}.Release.ActiveCfg = Release|.NET
+		{4D0896E8-7E2E-42C3-A38B-5754644C9F8D}.Release.Build.0 = Release|.NET
+		{FF486279-1221-4544-8202-9926F804F273}.Debug.ActiveCfg = Debug|.NET
+		{FF486279-1221-4544-8202-9926F804F273}.Debug.Build.0 = Debug|.NET
+		{FF486279-1221-4544-8202-9926F804F273}.Release.ActiveCfg = Release|.NET
+		{FF486279-1221-4544-8202-9926F804F273}.Release.Build.0 = Release|.NET
+		{D5C05285-81EF-4C1B-813F-B6D402279863}.Debug.ActiveCfg = Debug|.NET
+		{D5C05285-81EF-4C1B-813F-B6D402279863}.Debug.Build.0 = Debug|.NET
+		{D5C05285-81EF-4C1B-813F-B6D402279863}.Release.ActiveCfg = Release|.NET
+		{D5C05285-81EF-4C1B-813F-B6D402279863}.Release.Build.0 = Release|.NET
+		{39F1B740-51C6-4B62-901A-646AD4A5ABEE}.Debug.ActiveCfg = Debug|.NET
+		{39F1B740-51C6-4B62-901A-646AD4A5ABEE}.Debug.Build.0 = Debug|.NET
+		{39F1B740-51C6-4B62-901A-646AD4A5ABEE}.Release.ActiveCfg = Release|.NET
+		{39F1B740-51C6-4B62-901A-646AD4A5ABEE}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

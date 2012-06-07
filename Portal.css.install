@@ -1,0 +1,266 @@
+td
+{
+}
+B
+{
+	color: #333399;
+}
+BODY
+{
+	margin: 0px 0px 0px 0px;
+}
+H1
+{
+    font-family: Verdana, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #333399;
+	font-size: 20px;
+	margin-bottom: 2px;
+}
+H2
+{
+    font-family: Verdana, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #333399;
+	font-size: 18px;
+	margin-bottom: 2px;
+}
+H3
+{
+    font-family: Verdana, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #333399;
+	font-size: 16px;
+	margin-bottom: 2px;
+}
+H4
+{
+    font-family: Verdana, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #333399;
+	font-size: 14px;
+	margin-bottom: 2px;
+}
+IMG
+{
+	border-style: none;
+}
+.Error
+{
+	color: Red;
+	font-weight: bold;
+}
+A
+{
+	color: #333399;
+	text-decoration: none;
+}
+A:hover
+{
+	text-decoration: underline;
+}
+
+A.LinkButton
+{
+	font-family: Verdana, Helvetica, sans-serif;
+    	font-size: 12px;
+	color: #333399;
+	text-decoration: none;
+}
+A:hover.LinkButton
+{
+	color: #FF3333;
+	text-decoration: underline;
+}
+
+.PortalHeader
+{
+	padding-top: 1;
+	padding-left: 15;
+	
+	color: #ffffff;
+	background: #333399;
+	font-weight: bold; 
+	font-size: 24px; 
+	font-family: Verdana, Helvetica, sans-serif;
+
+}
+.PortalHeaderUserInfo
+{
+	color: #cccccc; 
+	font-weight: bold; 
+	font-size: 12px; 
+	font-family: Verdana, Helvetica, sans-serif;
+}
+.PortalFooter
+{
+	color: #333399;
+	font-weight: bold; 
+	height: 20px;
+	padding-top: 1;
+	padding-left: 15;
+	border-top: solid 1px #ff9900;
+}
+
+.PortalEditTab,
+.PortalTab
+{
+	border-top: solid 8px #ff9900;
+	border-left: solid 8px #ff9900;
+	height: 100%;
+}
+
+.ModuleTitle
+{
+    	font-family: Verdana, Helvetica, sans-serif;
+    	font-size: 20px;
+	font-weight: normal;
+	color: #333399;
+}
+
+.Module
+{
+	margin-bottom: 15;
+}
+
+.TabMenu
+{
+	border-collapse: collapse;
+}
+.TabMenu_CurrentTab
+{
+	background-color: #ff9900;
+	border-right: solid 1px white;
+	border-left: solid 1px white;
+	padding: 0px 7px 0px 7px;
+}
+.TabMenu_CurrentLink
+{
+	color: #333399;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 13px;
+	font-weight: bold;
+}
+.TabMenu_Tab
+{
+	border: solid 0px black;
+	padding: 0px 7px 0px 7px;
+}
+.TabMenu_Link
+{
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 13px;
+	font-weight: bold;
+	color: white;
+}
+.TabPath
+{
+	padding-top: 0;
+	margin-top: 0;
+	background-color: #ff9900;
+	color: #333399;
+	height: 0px;
+}
+.TabPathButton
+{
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 13px;
+	font-weight: bold;
+	color: #333399;
+}
+
+.ListHeader
+{
+	background-color: #333399;
+	color: White;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.List
+{
+	width:100%;
+	border-collapse:collapse;
+}
+.ListLine
+{
+}
+.AlternatingListLine
+{
+	background-color: #E0F0FF;
+}
+.Label
+{
+	width: 1px;
+	padding-right: 20px;
+}
+.Data
+{
+}
+.Emph
+{
+	font-style: italic;
+}
+
+.OverlayMenuRoot
+{
+	padding: 5 5 5 5;
+	margin: 2 2 2 2;
+	font-family: Verdana, Helvetica, sans-serif;
+   	font-size: 12px;
+	text-decoration: none;
+}
+.OverlayMenu
+{
+	border: solid 1px #333399;
+	background-color: #ffffff;
+}
+.OverlayMenuItem
+{
+	font-family: Verdana, Helvetica, sans-serif;
+   	font-size: 12px;
+	text-decoration: none;
+	cursor: hand;
+}
+.OverlayMenuSeparator
+{
+	border: 0;
+	height: 1px;	
+	color: #333399;
+}
+/*  Riverside Internet Forums  */
+.WebSolutionBorder
+{
+    border: 1px #333399 solid; 
+    background-color: #FFFFFF;
+}
+.WebSolutionHeader
+{
+    background-color: #333399;
+    color: white;
+    font-size: 0.7em;
+    font-weight:bold;
+    font-family: Verdana, Arial, Helvetica;
+}
+.WebSolutionFormControl
+{
+    font-size: 1.0em;
+    font-family: Verdana, Arial, Helvetica;
+}
+.WebSolutionErrorText
+{
+	color: red;
+}
+.WebSolutionQuote
+{
+	border-top: 1px #333399 solid; 
+	border-bottom: 1px #333399 solid; 
+}
+TD.WebSolutionRow
+{
+    background-color: #eef3fb;
+}
+TD.WebSolutionRowHighlight
+{
+    background-color: #D4D9EC;
+}
